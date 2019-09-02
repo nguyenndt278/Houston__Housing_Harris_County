@@ -45,7 +45,7 @@ https://api.census.gov/data/2016/acs/acs1/groups/B11001.html
 8.	Travel time to work
 https://api.census.gov/data/2016/acs/acs1/groups/B08303.html
 https://api.census.gov/data/2016/acs/acs1/groups/B08135.html
-	TBD
+	Assigned to Patrik 09/02/2019
 
 9.	Poverty
 https://api.census.gov/data/2016/acs/acs1/groups/B07012.html
