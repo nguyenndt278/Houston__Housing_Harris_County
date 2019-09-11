@@ -1,0 +1,130 @@
+Zipcode,Median Household Income,Median Value,Cities,Houston Area Detail
+77484.0,60998.0,142500.0,Waller,Other Cities
+77502.0,42939.0,93700.0,Pasadena,Other Cities
+77503.0,42207.0,91500.0,Pasadena,Other Cities
+77504.0,42226.0,116900.0,Pasadena,Other Cities
+77505.0,72172.0,160000.0,Pasadena,Other Cities
+77506.0,30590.0,75600.0,Pasadena,Other Cities
+77520.0,44181.0,79000.0,Baytown,Other Cities
+77521.0,57352.0,119400.0,Baytown,Other Cities
+77530.0,43439.0,88300.0,Channelview,Other Cities
+77532.0,64317.0,119300.0,Crosby,Other Cities
+77536.0,76482.0,130800.0,Deer Park,Other Cities
+77547.0,40310.0,70600.0,Galena Park,Other Cities
+77562.0,54504.0,90300.0,Highlands,Other Cities
+77571.0,66983.0,120900.0,La Porte,Other Cities
+77586.0,86474.0,191600.0,Seabrook,Other Cities
+77587.0,36420.0,83400.0,South Houston,Other Cities
+77598.0,44884.0,117300.0,Webster,Other Cities
+77002.0,57165.0,216400.0,Houston,Inner Loop
+77003.0,37664.0,116100.0,Houston,Inner Loop
+77004.0,39804.0,200800.0,Houston,Inner Loop
+77005.0,153041.0,723300.0,Houston,Inner Loop
+77006.0,63360.0,306000.0,Houston,Inner Loop
+77007.0,90860.0,296400.0,Houston,Inner Loop
+77008.0,65457.0,278900.0,Houston,Inner Loop
+77009.0,42944.0,155600.0,Houston,Inner Loop
+77011.0,27458.0,78300.0,Houston,Inner Loop
+77012.0,33035.0,80600.0,Houston,Inner Loop
+77013.0,39701.0,86800.0,Houston,Northeast
+77014.0,41429.0,122600.0,Houston,Northwest
+77015.0,45912.0,93500.0,Houston,Northeast
+77016.0,31067.0,65200.0,Houston,Northeast
+77017.0,36796.0,86900.0,Houston,Southeast
+77018.0,59510.0,205600.0,Houston,Northwest
+77019.0,87582.0,379900.0,Houston,Inner Loop
+77020.0,28217.0,71900.0,Houston,Inner Loop
+77021.0,32096.0,82400.0,Houston,Inner Loop
+77022.0,27895.0,83900.0,Houston,Northeast
+77023.0,37735.0,103000.0,Houston,Inner Loop
+77024.0,108068.0,632700.0,Houston,Southwest
+77025.0,64202.0,324000.0,Houston,Inner Loop
+77026.0,20200.0,59900.0,Houston,Inner Loop
+77027.0,81202.0,455900.0,Houston,Inner Loop
+77028.0,31509.0,61000.0,Houston,Northeast
+77029.0,30811.0,73600.0,Houston,Southeast
+77030.0,67790.0,474400.0,Houston,Inner Loop
+77031.0,41769.0,118300.0,Houston,Southwest
+77032.0,22389.0,73100.0,Houston,Northeast
+77033.0,28510.0,65000.0,Houston,Southeast
+77034.0,44519.0,103800.0,Houston,Southeast
+77035.0,36151.0,151100.0,Houston,Southwest
+77036.0,28175.0,112500.0,Houston,Southwest
+77037.0,34864.0,93000.0,Houston,Northeast
+77038.0,38746.0,90300.0,Houston,Northwest
+77039.0,39483.0,88000.0,Houston,Northeast
+77040.0,53332.0,130000.0,Houston,Northwest
+77041.0,70413.0,137600.0,Houston,Northwest
+77042.0,46885.0,206600.0,Houston,Southwest
+77043.0,52263.0,143100.0,Houston,Northwest
+77044.0,66186.0,131000.0,Houston,Northeast
+77045.0,37276.0,87900.0,Houston,Southwest
+77046.0,85943.0,320900.0,Houston,Inner Loop
+77047.0,49625.0,104800.0,Houston,Southeast
+77048.0,36721.0,83300.0,Houston,Southeast
+77049.0,50182.0,100400.0,Houston,Northeast
+77050.0,46934.0,76400.0,Houston,Northeast
+77051.0,23481.0,54400.0,Houston,Southeast
+77054.0,42447.0,114800.0,Houston,Inner Loop
+77055.0,43470.0,215000.0,Houston,Northwest
+77056.0,90348.0,543600.0,Houston,Southwest
+77057.0,54614.0,221200.0,Houston,Southwest
+77058.0,52861.0,158500.0,Houston,Southeast
+77059.0,135394.0,242500.0,Houston,Southeast
+77060.0,28734.0,92200.0,Houston,Northeast
+77061.0,31854.0,113800.0,Houston,Southeast
+77062.0,88897.0,158400.0,Houston,Southeast
+77063.0,50460.0,188500.0,Houston,Southwest
+77064.0,64945.0,134800.0,Houston,Northwest
+77065.0,56110.0,143000.0,Houston,Northwest
+77066.0,61850.0,118700.0,Houston,Northwest
+77067.0,37254.0,97000.0,Houston,Other Cities
+77068.0,73750.0,161300.0,Houston,Northwest
+77069.0,66856.0,202200.0,Houston,Northwest
+77070.0,70634.0,157900.0,Houston,Northwest
+77071.0,44958.0,121000.0,Houston,Southwest
+77072.0,35763.0,96100.0,Houston,Southwest
+77073.0,50745.0,113200.0,Houston,Northeast
+77074.0,35154.0,102900.0,Houston,Southwest
+77075.0,47737.0,116600.0,Houston,Southeast
+77076.0,32764.0,85800.0,Houston,Northeast
+77077.0,61702.0,209100.0,Houston,Southwest
+77078.0,32441.0,67700.0,Houston,Northeast
+77079.0,94924.0,319900.0,Houston,Southwest
+77080.0,36162.0,128200.0,Houston,Northwest
+77081.0,27789.0,221900.0,Houston,Southwest
+77082.0,49962.0,129800.0,Houston,Southwest
+77083.0,54639.0,119800.0,Houston,Southwest
+77084.0,62248.0,127400.0,Houston,Northwest
+77085.0,51250.0,112100.0,Houston,Southwest
+77086.0,43665.0,96300.0,Houston,Northwest
+77087.0,40440.0,85700.0,Houston,Other Cities
+77088.0,41067.0,93900.0,Houston,Northwest
+77089.0,63027.0,123300.0,Houston,Southeast
+77090.0,38459.0,137000.0,Houston,Northwest
+77091.0,29000.0,91800.0,Houston,Northwest
+77092.0,35555.0,129400.0,Houston,Northwest
+77093.0,31550.0,76700.0,Houston,Other Cities
+77094.0,155577.0,284600.0,Houston,Southwest
+77095.0,89752.0,168300.0,Houston,Northwest
+77096.0,65011.0,256300.0,Houston,Southwest
+77098.0,78652.0,392200.0,Houston,Inner Loop
+77099.0,35879.0,98700.0,Houston,Southwest
+77336.0,63347.0,145100.0,Huffman,Other Cities
+77338.0,48673.0,106800.0,Humble,Other Cities
+77339.0,71759.0,150100.0,Kingwood2,Other Cities
+77345.0,124055.0,237300.0,Kingwood2,Other Cities
+77346.0,87508.0,158300.0,Humble2,Other Cities
+77373.0,69604.0,112800.0,Spring,Other Cities
+77375.0,61463.0,146100.0,Tomball,Other Cities
+77377.0,96630.0,192200.0,Tomball,Other Cities
+77379.0,100814.0,190800.0,Spring2,Other Cities
+77388.0,81650.0,150400.0,Spring2,Other Cities
+77389.0,92689.0,179000.0,Spring2,Other Cities
+77396.0,58775.0,112200.0,Humble3,Other Cities
+77401.0,147660.0,557500.0,Bellaire,Other Cities
+77429.0,96759.0,187000.0,Cypress2,Other Cities
+77433.0,92142.0,176500.0,Cypress2,Other Cities
+77447.0,65263.0,128500.0,Hockley,Other Cities
+77449.0,65445.0,119000.0,Katy,Other Cities
+77450.0,99575.0,191100.0,Katy,Other Cities
