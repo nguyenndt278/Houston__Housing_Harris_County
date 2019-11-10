@@ -6,139 +6,217 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="shortcut icon" href="img/glassesmoustache.png" type="image/x-icon">
-  <link rel="stylesheet" href="mystyle_housing.css">
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="mystyle_housing2.css">
+
 </head>
 <body>
-        <strong><h2 class="h2">Factors affect house values in Houston Area- Harris County </h2></strong>
-        <h2 class="h2">from 2011- 2017</h2>
 
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 17</div>
-                <img src="image/h2.PNG">
-                <div class="text">Caption One</div>
-            </div>	
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 17</div>
-                <img src="image/h3.PNG">
-                <div class="text">Caption Two</div>
-            </div>
-        
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 17</div>
-                <img src="image/h4.PNG">
-                <div class="text">Caption Three</div>
-            </div>
-
-            <div class="mySlides fade">
-                    <div class="numbertext">4 / 17</div>
-                    <img src="image/h5.PNG">
-                    <div class="text">Caption Three</div>
-                </div>
-
-                <div class="mySlides fade">
-                        <div class="numbertext">5 / 17</div>
-                        <img src="image/h6.PNG">
-                        <div class="text">Caption Three</div>
+        <ul class="slides">
+                <input type="radio" name="radio-btn" id="img-1" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="image/h2.PNG" />
                     </div>
-                    <div class="mySlides fade">
-                            <div class="numbertext">6 / 17</div>
-                            <img src="image/h7.PNG">
-                            <div class="text">Caption Three</div>
-                        </div>
-                        <div class="mySlides fade">
-                                <div class="numbertext">7 / 17</div>
-                                <img src="image/h8.PNG">
-                                <div class="text">Caption Three</div>
-                            </div>
-                            <div class="mySlides fade">
-                                    <div class="numbertext">8 / 17</div>
-                                    <img src="image/h9.PNG">
-                                    <div class="text">Caption Three</div>
-                                </div>
-                                <div class="mySlides fade">
-                                        <div class="numbertext">9 / 17</div>
-                                        <img src="image/h10.PNG">
-                                        <div class="text">Caption Three</div>
-                                    </div>
-                    
-                                    <div class="mySlides fade">
-                                            <div class="numbertext">10 / 17</div>
-                                            <img src="image/h11.PNG">
-                                            <div class="text">Caption Three</div>
-                                        </div>
-                                        <div class="mySlides fade">
-                                                <div class="numbertext">11 / 17</div>
-                                                <img src="image/h12.PNG">
-                                                <div class="text">Caption Three</div>
-                                            </div>
-                                            <div class="mySlides fade">
-                                                    <div class="numbertext">12 / 17</div>
-                                                    <img src="image/h13.PNG">
-                                                    <div class="text">Caption Three</div>
-                                                </div>
-                                                <div class="mySlides fade">
-                                                        <div class="numbertext">13 / 17</div>
-                                                        <img src="image/h14.PNG">
-                                                        <div class="text">Caption Three</div>
-                                                    </div>
-                                                    <div class="mySlides fade">
-                                                            <div class="numbertext">14 / 17</div>
-                                                            <img src="image/h2.PNG">
-                                                            <div class="text">Caption Three</div>
-                                                        </div>
-                                        
-                                                        <div class="mySlides fade">
-                                                                <div class="numbertext">15 / 17</div>
-                                                                <img src="image/h15.PNG">
-                                                                <div class="text">Caption Three</div>
-                                                            </div>
-                                                            <div class="mySlides fade">
-                                                                    <div class="numbertext">16 / 17</div>
-                                                                    <img src="image/h16.PNG">
-                                                                    <div class="text">Caption Three</div>
-                                                                </div>
-                                                                <div class="mySlides fade">
-                                                                        <div class="numbertext">17 / 17</div>
-                                                                        <img src="image/h17.PNG">
-                                                                        <div class="text">Caption Three</div>
-                                                                    </div>
-                                                                  
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span> 
-          <span class="dot" onclick="currentSlide(5)"></span> 
-          <span class="dot" onclick="currentSlide(6)"></span>
-          <span class="dot" onclick="currentSlide(7)"></span> 
-          <span class="dot" onclick="currentSlide(8)"></span> 
-          <span class="dot" onclick="currentSlide(9)"></span>
-          <span class="dot" onclick="currentSlide(10)"></span> 
-          <span class="dot" onclick="currentSlide(11)"></span> 
-          <span class="dot" onclick="currentSlide(12)"></span>
-          <span class="dot" onclick="currentSlide(13)"></span> 
-          <span class="dot" onclick="currentSlide(14)"></span> 
-          <span class="dot" onclick="currentSlide(15)"></span>
-          <span class="dot" onclick="currentSlide(16)"></span> 
-          <span class="dot" onclick="currentSlide(17)"></span>  
-        </div>
+                    <div class="nav">
+                        <label for="img-16" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-2" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h3.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-3" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h4.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">&#x2039;</label>
+                        <label for="img-4" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-4" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h5.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-3" class="prev">&#x2039;</label>
+                        <label for="img-5" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-5" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h6.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-4" class="prev">&#x2039;</label>
+                        <label for="img-6" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-6" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h7.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-5" class="prev">&#x2039;</label>
+                        <label for="img-7" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-7" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h8.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-6" class="prev">&#x2039;</label>
+                        <label for="img-8" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-8" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h9.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-7" class="prev">&#x2039;</label>
+                        <label for="img-9" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-9" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h10.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-8" class="prev">&#x2039;</label>
+                        <label for="img-10" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-10" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h11.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-9" class="prev">&#x2039;</label>
+                        <label for="img-11" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-11" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h12.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-10" class="prev">&#x2039;</label>
+                        <label for="img-12" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-12" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h13.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-11" class="prev">&#x2039;</label>
+                        <label for="img-13" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-13" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h14.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-12" class="prev">&#x2039;</label>
+                        <label for="img-14" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-14" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h15.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-13" class="prev">&#x2039;</label>
+                        <label for="img-15" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-15" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h16.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-14" class="prev">&#x2039;</label>
+                        <label for="img-16" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-16" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img src="image/h17.PNG" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-15" class="prev">&#x2039;</label>
+                        <label for="img-1" class="next">&#x203a;</label>
+                    </div>
+                </li>
 
 
-<script src="app_housing.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+                <li class="nav-dots">
+                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                  <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                  <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                  <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+                  <label for="img-8" class="nav-dot" id="img-dot-8"></label>
+                  <label for="img-9" class="nav-dot" id="img-dot-9"></label>
+                  <label for="img-10" class="nav-dot" id="img-dot-10"></label>
+                  <label for="img-11" class="nav-dot" id="img-dot-11"></label>
+                  <label for="img-12" class="nav-dot" id="img-dot-12"></label>
+                  <label for="img-13" class="nav-dot" id="img-dot-13"></label>
+                  <label for="img-14" class="nav-dot" id="img-dot-14"></label>
+                  <label for="img-15" class="nav-dot" id="img-dot-15"></label>
+                  <label for="img-16" class="nav-dot" id="img-dot-16"></label>
+                </li>
+            </ul>
+        
+
+
+    <script src="app_housing1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
